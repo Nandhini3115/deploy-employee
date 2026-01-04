@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/employees";
+const API_URL = "http://localhost:3000/employees";
 
 function EmployeeTable() {
   const [employees, setEmployees] = useState([]);
